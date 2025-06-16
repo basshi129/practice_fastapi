@@ -5,7 +5,7 @@ from pydantic import BaseModel
 #     x: float
 #     y: float
 
-# app = FastAPI()
+app = FastAPI()
 
 # @app.post("/")
 # def calc(data: Data):
