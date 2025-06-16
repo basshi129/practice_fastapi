@@ -7,5 +7,5 @@ from pydantic import BaseModel
 app = FastAPI()
 
 @app.get("/test/{country}")
-def get(country: str):
-    return {"message": f"{country}"}
+def get(country: str, num: int = 10):
+    return {"message": f"{country}, {num}"}
