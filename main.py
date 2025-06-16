@@ -11,6 +11,6 @@ app = FastAPI()
 # def calc(data: Data):
 #     return data.x * data.y
 
-@app.get("/")
+@app.get("/test")
 def get():
     return {"message": "testtest"}
